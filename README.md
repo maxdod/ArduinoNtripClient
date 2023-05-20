@@ -18,4 +18,5 @@ To setup: change the caster name, the mountpoint and the credentials.
 for Ublox gps device use the following drivers: https://github.com/ros-agriculture/ublox_f9p that support rtcm corrections
 ![IMG_7922](https://github.com/maxdod/ArduinoNtripClient/assets/39596051/a0ced7e8-87bc-4e2a-a360-8055bf8ea5c6)
 
-https://user-images.githubusercontent.com/3899839/37246575-1c9bcbc6-24ac-11e8-8d29-e45ff8492059.png![image](https://github.com/maxdod/ArduinoNtripClient/assets/39596051/955d1b59-54c9-4d36-97ea-ff05a81b2996)
+Arduino pin connection
+![schema](https://github.com/maxdod/ArduinoNtripClient/assets/39596051/1a6b2d00-a6c6-4755-b756-d12bca8a1f75)
