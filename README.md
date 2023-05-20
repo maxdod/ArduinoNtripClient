@@ -38,6 +38,7 @@ char ggaSentence[128] = "$GPGGA,111452.559,4225.436,N,01152.952,E,1,12,1.0,0.0,M
 3) set the address of rosserial_server socket
 
 IPAddress server(192, 168, 6, 208);   // Change the rosserial socket ROSCORE SERVER IP address
+
 const uint16_t serverPort = 11411;    // Set the rosserial socket server port
 
           
