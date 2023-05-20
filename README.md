@@ -5,7 +5,8 @@ I have a project where three rovers move autonomously. Relative location must be
 
 
 
-Use Arduino Mega 2560 and ethernet adapter based on ENC28J60
+Use Arduino Mega 2560 and ethernet adapter based on ENC28J60.
+
 Requires arduino library:   https://github.com/JAndrassy/EthernetENC
 
 Produces a ros topic /rtcm thru a connection to rosserial_server socket node
