@@ -316,3 +316,13 @@ void beginClient()
   }
   ntripClient.stop();
 }
+long lastTime = 0; 
+void loop() {
+  
+  beginClient();
+  if (millis() - lastTime > 1000)
+  {
+    lastTime = millis(); //Update the timer    
+  }
+  delay(10000);
+}
