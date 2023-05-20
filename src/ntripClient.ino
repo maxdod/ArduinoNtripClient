@@ -1,6 +1,9 @@
 /*
- ntripclient V 1.0
- 
+ ntripClient V 1.0
+ based on Example16_NTRIPClient_WithGGA
+ By: SparkFun Electronics / Nathan Seidle
+  Date: November 18th, 2021
+  License: MIT. See license file for more information.
 
  */
 
