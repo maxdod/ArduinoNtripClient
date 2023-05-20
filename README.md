@@ -12,3 +12,4 @@ To setup: change the caster name, the mountpoint and the credentials.
           roslaunch rosserial_server socket.launch to start the socket server
 
 for Ublox gps device use the following drivers: https://github.com/ros-agriculture/ublox_f9p that support rtcm corrections
+![IMG_7922](https://github.com/maxdod/ArduinoNtripClient/assets/39596051/a0ced7e8-87bc-4e2a-a360-8055bf8ea5c6)
