@@ -16,9 +16,13 @@ To setup:
 1) change the caster name, the mountpoint and the credentials.
 
 char casterHost[] = "*******"; // ip or name of caster server
+
 int casterPort = 2101;         // usually this
+
 char mountPoint[] = "******"; // mountpoint (depends by the caster)
+
 char casterUser[] = "----";       // user
+
 char casterUserPW[] = "----";     // password 
 
 2) Change the ggaSentence based on you position.
