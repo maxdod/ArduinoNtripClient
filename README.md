@@ -1,6 +1,10 @@
 # ArduinoNtripClient
 An Arduino Ntrip client to dispatch rtcm ros topic for Ublox fp9 gps Rtk correction
 
+I have a project where three rovers move autonomously. Relative location must be accurate (below 10 cm). It is essential to provide the RTK correction to the three gps receivers. The three rovers are connected to a local network via long-range wifi. An arduino sends the corrections via a caster server with ntrip protocol to all gps devices. The messages are encapsulated in the rtcm ros topic.
+
+
+
 Use Arduino Mega 2560 and ethernet adapter based on ENC28J60
 Requires arduino library:   https://github.com/JAndrassy/EthernetENC
 
@@ -13,3 +17,4 @@ To setup: change the caster name, the mountpoint and the credentials.
 
 for Ublox gps device use the following drivers: https://github.com/ros-agriculture/ublox_f9p that support rtcm corrections
 ![IMG_7922](https://github.com/maxdod/ArduinoNtripClient/assets/39596051/a0ced7e8-87bc-4e2a-a360-8055bf8ea5c6)
+
