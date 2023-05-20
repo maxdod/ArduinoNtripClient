@@ -30,6 +30,7 @@ Many Caster servers require this data to send back the corrections:
 The caster send the corrections by the station nearest to you in order to maximize the precision.
 
 To generate the string based on your position you can use this web site: https://www.nmeagen.org
+
 char ggaSentence[128] = "$GPGGA,111452.559,4225.436,N,01152.952,E,1,12,1.0,0.0,M,0.0,M,,*6C";
 
 
